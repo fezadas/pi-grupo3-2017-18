@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "name": "Cinema City Alegro Setúbal",
+        "city": "Setúbal",
+        "auditorium": [
+            {
+                "id" : 1,
+                "name" : "sala1",
+                "rows" : 20,
+                "seats" : 10
+            },
+            {
+                "id" : 2,
+                "name" : "sala2",
+                "rows" : 20,
+                "seats" : 10
+            },
+            {
+                "id" : 3,
+                "name" : "sala3",
+                "rows" : 15,
+                "seats" : 10
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Cinema City Alvalade",
+        "city": "Lisboa",
+        "auditorium": [
+            {
+                "id" : 1,
+                "name" : "sala1",
+                "rows" : 20,
+                "seats" : 10
+            },
+            {
+                "id" : 2,
+                "name" : "sala2",
+                "rows" : 20,
+                "seats" : 10
+            }
+        ]
+    },{
+        "id": 3,
+        "name": "Cinema City Leiria",
+        "city": "Leiria",
+        "auditorium": [
+            {
+                "id" : 1,
+                "name" : "sala1",
+                "rows" : 20,
+                "seats" : 10
+            },
+            {
+                "id" : 2,
+                "name" : "sala2",
+                "rows" : 20,
+                "seats" : 10
+            }
+        ]
+    }
+]

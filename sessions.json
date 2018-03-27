@@ -1,0 +1,124 @@
+[
+    {
+        "cinema_id": 1,
+        "auditorium_id": 1,
+        "sessions": [
+            {
+                "session" : 1,
+                "schedule" : "18h30",
+                "movie" : 33542
+            },
+            {
+                "session" : 2,
+                "schedule" : "21h30",
+                "movie" : 33542
+            }
+        ]
+    },
+    {
+        "cinema_id": 1,
+        "auditorium_id": 2,
+        "sessions": [
+            {
+                "session" : 1,
+                "schedule" : "14h45",
+                "movie" : 52896
+            },
+            {
+                "session" : 2,
+                "schedule" : "16h30",
+                "movie" : 52896
+            },
+            {
+                "session" : 3,
+                "schedule" : "20h25",
+                "movie" : 52896
+            },
+            {
+                "session" : 4,
+                "schedule" : "22h50",
+                "movie" : 52896
+            }
+        ]
+    },
+    {
+        "cinema_id": 1,
+        "auditorium_id": 3,
+        "sessions": [
+            {
+                "session" : 1,
+                "schedule" : "16h50",
+                "movie" : 46328
+            },
+            {
+                "session" : 2,
+                "schedule" : "19h15",
+                "movie" : 46328
+            }
+        ]
+    },
+    {
+        "cinema_id": 2,
+        "auditorium_id": 1,
+        "sessions": [
+            {
+                "session" : 1,
+                "schedule" : "16h50",
+                "movie" : 46328
+            },
+            {
+                "session" : 2,
+                "schedule" : "19h15",
+                "movie" : 46328
+            }
+        ]
+    },
+    {
+        "cinema_id": 2,
+        "auditorium_id": 2,
+        "sessions": [
+            {
+                "session" : 1,
+                "schedule" : "18h30",
+                "movie" : 33542
+            },
+            {
+                "session" : 2,
+                "schedule" : "21h30",
+                "movie" : 33542
+            }
+        ]
+    },
+    {
+        "cinema_id": 3,
+        "auditorium_id": 1,
+        "sessions": [
+            {
+                "session" : 1,
+                "schedule" : "18h30",
+                "movie" : 33542
+            },
+            {
+                "session" : 2,
+                "schedule" : "21h30",
+                "movie" : 33542
+            }
+        ]
+    },
+    {
+        "cinema_id": 3,
+        "auditorium_id": 2,
+        "sessions": [
+            {
+                "session" : 1,
+                "schedule" : "16h50",
+                "movie" : 46328
+            },
+            {
+                "session" : 2,
+                "schedule" : "19h15",
+                "movie" : 46328
+            }
+        ]
+    }
+]
