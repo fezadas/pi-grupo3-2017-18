@@ -2,7 +2,7 @@
 
 const configInfo = require('../cinemas.json')
 
-module.exports = {getmovieTheaters, getAuditoriums}
+module.exports = {getmovieTheaters, getAuditoriums,getCinemaInfo}
 
 function getmovieTheaters(cb){
     let movieTheaters = configInfo.map(elem => {
@@ -14,6 +14,16 @@ function getmovieTheaters(cb){
     })
     cb(null, movieTheaters)
 }
+
+function getCinemaInfo(id, cb){
+    let cinema = configInfo.find(elem => elem.id == id)
+    let movies = cinema.auditorium.map(elem => {
+        return elem.movie
+    })
+    cinema.movies = movies
+    cb(null, cinema)
+}
+
 
 function getAuditoriums(id, cb){
     let cinema = configInfo.find(elem => elem.id == id)

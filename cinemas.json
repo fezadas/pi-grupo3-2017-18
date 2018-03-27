@@ -8,19 +8,22 @@
                 "id" : 1,
                 "name" : "sala1",
                 "rows" : 20,
-                "seats" : 10
+                "seats" : 10,
+                "movie" : 23
             },
             {
                 "id" : 2,
                 "name" : "sala2",
                 "rows" : 20,
-                "seats" : 10
+                "seats" : 10,
+                "movie" : 23
             },
             {
                 "id" : 3,
                 "name" : "sala3",
                 "rows" : 15,
-                "seats" : 10
+                "seats" : 10,
+                "movie" : 23
             }
         ]
     },
@@ -33,13 +36,15 @@
                 "id" : 1,
                 "name" : "sala1",
                 "rows" : 20,
-                "seats" : 10
+                "seats" : 10,
+                "movie" : 346364
             },
             {
                 "id" : 2,
                 "name" : "sala2",
                 "rows" : 20,
-                "seats" : 10
+                "seats" : 10,
+                "movie" : 23
             }
         ]
     },{
@@ -51,13 +56,15 @@
                 "id" : 1,
                 "name" : "sala1",
                 "rows" : 20,
-                "seats" : 10
+                "seats" : 10,
+                "movie" : 23
             },
             {
                 "id" : 2,
                 "name" : "sala2",
                 "rows" : 20,
-                "seats" : 10
+                "seats" : 10,
+                "movie" : 23
             }
         ]
     }
