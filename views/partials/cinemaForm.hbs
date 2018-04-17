@@ -1,0 +1,26 @@
+<form class="ui form container" method="POST" action={{action}}>
+    <h4 class="ui dividing header">Cinema Information</h4>
+    <div class="fields">
+    <div class="three wide required field">
+        <label>Cinema id</label>
+        <input type="number" name="id"
+            {{#if cinema}} value="{{cinema.id}}"
+            {{else}} placeholder="cinema identifier" {{/if}}
+        />
+    </div>
+    <div class="three wide required field">
+        <label>Cinema Name</label>
+        <input type="text" name="name" 
+            {{#if cinema}} value="{{cinema.name}}"
+            {{else}} placeholder="name" {{/if}}
+        />
+    </div>
+    <div class="three wide required field">
+        <label>City</label>
+        <input type="text" name="city" 
+            {{#if cinema}} value="{{cinema.city}}"
+            {{else}} placeholder="city/location" {{/if}}
+        />
+    </div>
+    <button class="ui button" type="submit">Submit</button>
+</form>

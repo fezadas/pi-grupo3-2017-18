@@ -11,3 +11,4 @@ function getAuditoriumInfo(idcin, idaud, cb){
     aud.lotation = aud.rows * aud.seats
     cb(null, aud)
 }
+
