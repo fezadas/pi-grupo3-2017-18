@@ -2,13 +2,21 @@
 
 const configInfo = require('../cinemas.json')
 
-module.exports = {getAuditoriumInfo}
+module.exports = init
 
-
-function getAuditoriumInfo(idcin, idaud, cb){
-    let cinema = configInfo.find(elem => elem.id == idcin)
-    let aud = cinema.auditorium.find(elem => elem.id == idaud)
-    aud.lotation = aud.rows * aud.seats
-    cb(null, aud)
+function init(){
+    return {getAuditoriumInfo}
+    
+    /**
+     * Obter informação de uma determinada sala de um cinema
+     * @param {*} idcin 
+     * @param {*} idaud 
+     * @param {*} cb 
+     */
+    function getAuditoriumInfo(cinemaId, auditoriumId, cb){
+        let cinema = configInfo.find(elem => elem.id == cinemaId)
+        let aud = cinema.auditorium.find(elem => elem.id == auditoriumId)
+        aud.lotation = aud.rows * aud.seats
+        cb(null, aud)
+    }
 }
-
